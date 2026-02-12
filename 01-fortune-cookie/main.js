@@ -24,5 +24,5 @@ button.addEventListener("click", function () {
 	//      get the fortune string
 	let fortune = fortunes[randomIndex];
 	//      update the display
-	display.textContent = fortune;
+	display.innerText = fortune;
 });
